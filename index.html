@@ -43,7 +43,13 @@ html
             <li>○ Создание Pull Request</li>
         </ul>
     </section>
-    
+    css
+        .feature-list {
+            background-color: #e7f3ff;
+            padding: 15px;
+            border-left: 4px solid #0366d6;
+            margin: 20px 0;
+        }
     <footer>
         <p>Создано с помощью GitHub</p>
         <p>Дата: <span id="current-date"></span></p>
@@ -52,5 +58,10 @@ html
     <script>
         document.getElementById('current-date').textContent = new Date().toLocaleDateString('ru-RU');
     </script>
+    html
+    <div class="feature-list">
+        <h3>Планируемые улучшения:</h3>
+        <p>Следите за обновлениями в <a href="#">Issues</a></p>
+    </div>
 </body>
 </html>
